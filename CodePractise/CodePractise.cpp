@@ -5,10 +5,11 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    // test
-    // code ...
-    // ???
+    using namespace std;
+    int a = 12, b = 28; 
+    int c = a * b;
+    cout << c; 
+    return 0; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
